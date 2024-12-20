@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boost logo -->
+
+    <link rel="icon" href="assets/Boost.svg">
+    
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remix icon CDN link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- swiper css -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- swiper js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- scroll reveal CDN -->
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- main js -->
+    <script defer src="main.js"></script>
+    <title>Boost</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="header" id="header">
+      <div class="header__container">
+        <!-- logo -->
+        <a href="#">
+          <img src="assets/logo.svg" />
+        </a>
+        <!-- nav trigger btn -->
+        <div class="nav-trigger" id="navTrigger">
+          <i class="ri-menu-5-fill"></i>
+        </div>
+        <!-- nav -->
+        <nav class="nav" id="nav">
+          <!-- close btn -->
+          <div class="nav__close-btn" id="navCloseBtn">
+            <i class="ri-close-large-line"></i>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#benfits" class="nav__link">Benfits</a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonials" class="nav__link">Testimonial</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faq" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- btn -->
+        <button class="btn btn-primary btn--sm" href="assets/index.html">
+          Get started
+        </button>
+      </div>
+    </header>
+
+    <!-- start banner -->
+    <section class="banner">
+      <div class="container banner__container">
+        <!-- text -->
+        <div class="banner__text">
+          <p class="banner__pretitle">Best seo agency</p>
+          <h1 class="banner__title h1">
+            Unlock Your Website's Potential with Expert
+            <span>SEO Strategies</span>
+          </h1>
+          <p class="lead banner__subtitle">
+            Don't miss out on the opportunity to work with a digital marketing
+            agency that's committed to your success.
+          </p>
+          <button class="btn btn-primary btn--lg banner__btn">
+            Get started
+          </button>
+        </div>
+        <!-- img -->
+        <div class="banner__image"><img src="assets/banner/img.svg" /></div>
+      </div>
+      <!-- brands -->
+      <div class="brands">
+        <div class="container brands__container">
+          <h3 class="h3 brands__title">Trusted by popular brands</h3>
+          <div class="brands__img-wrapper">
+            <img class="brands__img" src="assets/brands/brand-1.png" />
+            <img class="brands__img" src="assets/brands/brand-2.png" />
+            <img class="brands__img" src="assets/brands/brand-3.png" />
+            <img class="brands__img" src="assets/brands/brand-4.png" />
+            <img class="brands__img" src="assets/brands/brand-5.png" />
+            <img class="brands__img" src="assets/brands/brand-6.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start benfits -->
+    <section class="benfits section" id="benfits">
+      <div class="container benfits__container">
+        <h2 class="h2 benfits__title">Why Choose us?</h2>
+        <!-- start benfit 1 -->
+        <div class="benfit benfit--1">
+          <!-- text -->
+          <div class="benfit__text">
+            <h3 class="h3 benfit__title">Proven Track Record</h3>
+            <p class="lead benfit__subtitle">
+              With years of experience and a portfolio of successful projects,
+              we have the expertise to deliver results-driven solutions.
+            </p>
+          </div>
+          <!-- img -->
+          <div class="benfit__img">
+            <img src="assets/benefits/img-1.svg" />
+          </div>
+        </div>
+        <!-- end benfit 1 -->
+        <!-- start benfit 2 -->
+        <div class="benfit benfit--2">
+          <!-- img -->
+          <div class="benfit__img">
+            <img src="assets/benefits/img-2.svg" />
+          </div>
+          <!-- text -->
+          <div class="benfit__text">
+            <h3 class="h3 benfit__title">Client-Centric Approach</h3>
+            <p class="lead benfit__subtitle">
+              Your success is our priority. We take the time to understand your
+              unique goals and tailor our strategies to meet your specific
+              needs.
+            </p>
+          </div>
+        </div>
+        <!-- end benfit 2 -->
+        <!-- start benfit 3 -->
+        <div class="benfit benfit--3">
+          <!-- text -->
+          <div class="benfit__text">
+            <h3 class="h3 benfit__title">Transparent Communication</h3>
+            <p class="lead benfit__subtitle">
+              We believe in open and honest communication every step of the way.
+              You'll always be kept in the loop, with regular updates and
+              reports on your campaign's progress.
+            </p>
+          </div>
+          <!-- img -->
+          <div class="benfit__img">
+            <img src="assets/benefits/img-3.svg" />
+          </div>
+        </div>
+        <!-- end benfit 3 -->
+      </div>
+    </section>
+
+    <!-- start testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="container testimonials__container">
+        <!-- slider -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="testimonial__message">
+                  At the core of our practice is the idea that cities are the
+                  incubators of our greatest achievements, and the best hope for
+                  a sustainable future.
+                </p>
+                <div class="testimonial__info-wrapper">
+                  <img
+                    class="testimonial__avatar"
+                    src="assets/testimonial/avatar-1.png"
+                  />
+                  <div>
+                    <h4 class="testimonial__name">Larry T.</h4>
+                    <p class="testimonial__company">Hexagon Builders, USA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="testimonial__message">
+                  At the core of our practice is the idea that cities are the
+                  incubators of our greatest achievements, and the best hope for
+                  a sustainable future.
+                </p>
+                <div class="testimonial__info-wrapper">
+                  <img
+                    class="testimonial__avatar"
+                    src="assets/testimonial/avatar-2.png"
+                  />
+                  <div>
+                    <h4 class="testimonial__name">Larry T.</h4>
+                    <p class="testimonial__company">Hexagon Builders, USA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="testimonial__message">
+                  At the core of our practice is the idea that cities are the
+                  incubators of our greatest achievements, and the best hope for
+                  a sustainable future.
+                </p>
+                <div class="testimonial__info-wrapper">
+                  <img
+                    class="testimonial__avatar"
+                    src="assets/testimonial/avatar-3.png"
+                  />
+                  <div>
+                    <h4 class="testimonial__name">Larry T.</h4>
+                    <p class="testimonial__company">Hexagon Builders, USA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- swiper 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="testimonial__message">
+                  At the core of our practice is the idea that cities are the
+                  incubators of our greatest achievements, and the best hope for
+                  a sustainable future.
+                </p>
+                <div class="testimonial__info-wrapper">
+                  <img
+                    class="testimonial__avatar"
+                    src="assets/testimonial/avatar-4.png"
+                  />
+                  <div>
+                    <h4 class="testimonial__name">Larry T.</h4>
+                    <p class="testimonial__company">Hexagon Builders, USA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start services -->
+    <section class="services section" id="services">
+      <h2 class="h2 services__title">Services</h2>
+      <div class="container services__container">
+        <!-- services item 1 -->
+        <div class="services__item">
+          <i class="ri-funds-line services__item-icon"></i>
+          <h4 class="h4 services__item-title">Digital Marketing</h4>
+          <p>
+            From SEO to PPC, social media marketing to email campaigns, we craft
+            tailored strategies to boost your online presence and drive
+            meaningful engagement.
+          </p>
+        </div>
+        <!-- services item 2 -->
+        <div class="services__item">
+          <i class="ri-news-line services__item-icon"></i>
+          <h4 class="h4 services__item-title">Content Creation</h4>
+          <p>
+            Our team of skilled writers and creatives will develop captivating
+            content that resonates with your audience and enhances your brand's
+            story.
+          </p>
+        </div>
+        <!-- services item 3 -->
+        <div class="services__item">
+          <i class="ri-line-chart-fill services__item-icon"></i>
+          <h4 class="h4 services__item-title">Analytics and Optimization</h4>
+          <p>
+            Our experts will analyze key metrics, identify areas for
+            improvement, and continuously optimize your campaigns for maximum
+            ROI.
+          </p>
+        </div>
+        <!-- services item 4 -->
+        <div class="services__item">
+          <i class="ri-mac-line services__item-icon"></i>
+          <h4 class="h4 services__item-title">Monitoring and Optimization</h4>
+          <p>
+            We'll track website traffic, engagement levels, conversion rates,
+            and other relevant metrics to ensure that we're on track to meet
+            your goals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- start faq -->
+    <section class="faq" id="faq">
+      <div class="container faq__container">
+        <div class="faq__img">
+          <img src="assets/faq/img.svg" />
+        </div>
+        <!-- items -->
+        <div class="faq__items">
+          <h3 class="h3 faq__title">FAQ</h3>
+          <!-- faq item start -->
+          <div class="faq__item">
+            <!-- question -->
+            <div class="faq__item-question">
+              <h4 class="faq__item-title">Why Your success is our priority?</h4>
+              <i class="ri-arrow-down-s-line faq__item-icon"></i>
+            </div>
+            <!-- answer -->
+            <p class="faq__item-answer">
+              We take the time to understand your unique goals and tailor our
+              strategies to meet your specific needs.
+            </p>
+          </div>
+          <!-- faq item end -->
+          <!-- faq item start -->
+          <div class="faq__item">
+            <!-- question -->
+            <div class="faq__item-question">
+              <h4 class="faq__item-title">
+                How long does it take to see the results?
+              </h4>
+              <i class="ri-arrow-down-s-line faq__item-icon"></i>
+            </div>
+            <!-- answer -->
+            <p class="faq__item-answer">
+              We take the time to understand your unique goals and tailor our
+              strategies to meet your specific needs.
+            </p>
+          </div>
+          <!-- faq item end -->
+          <!-- faq item start -->
+          <div class="faq__item">
+            <!-- question -->
+            <div class="faq__item-question">
+              <h4 class="faq__item-title">Can you guarantee us the results?</h4>
+              <i class="ri-arrow-down-s-line faq__item-icon"></i>
+            </div>
+            <!-- answer -->
+            <p class="faq__item-answer">
+              We take the time to understand your unique goals and tailor our
+              strategies to meet your specific needs.
+            </p>
+          </div>
+          <!-- faq item end -->
+          <!-- faq item start -->
+          <div class="faq__item">
+            <!-- question -->
+            <div class="faq__item-question">
+              <h4 class="faq__item-title">
+                What makes you different than others?
+              </h4>
+              <i class="ri-arrow-down-s-line faq__item-icon"></i>
+            </div>
+            <!-- answer -->
+            <p class="faq__item-answer">
+              We take the time to understand your unique goals and tailor our
+              strategies to meet your specific needs.
+            </p>
+          </div>
+          <!-- faq item end -->
+          <!-- faq item start -->
+          <div class="faq__item">
+            <!-- question -->
+            <div class="faq__item-question">
+              <h4 class="faq__item-title">Can i get a quote?</h4>
+              <i class="ri-arrow-down-s-line faq__item-icon"></i>
+            </div>
+            <!-- answer -->
+            <p class="faq__item-answer">
+              We take the time to understand your unique goals and tailor our
+              strategies to meet your specific needs.
+            </p>
+          </div>
+          <!-- faq item end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- start contact -->
+    <section class="contact section" id="contact">
+      <div class="container contact__container">
+        <!-- image -->
+        <div class="contact__img">
+          <img src="assets/contact/img.svg" />
+        </div>
+        <div class="contact__form-wrapper">
+          <h3 class="h3 contaact__form-title">Contact us</h3>
+          <p class="contaact__form-subtitle">
+            With years of experience and a protofolio of a successful porjects,
+            we have the expertise to deliver resulst-driven solutions.
+          </p>
+          <!-- form -->
+          <form class="form">
+            <input
+              type="text"
+              class="input form__input"
+              placeholder="full name."
+            />
+            <input
+              type="text"
+              class="input form__input"
+              placeholder="email address."
+            />
+            <textarea
+              class="textarea form__textarea"
+              placeholder="your message."
+            >
+            </textarea>
+            <button class="btn btn-primary btn--lg form__btn">
+              Send message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <h2 class="footer__title">Let's talk</h2>
+        <div class="footer__info-wrapper">
+          <div class="info">
+            <div class="info__email">seifalaa939@gmail.com</div>
+            <div class="info__address">Alexandria, Egypt</div>
+          </div>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#contact" class="social__icon"
+                ><i class="ri-youtube-fill"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a href="#contact" class="social__icon"
+                ><i class="ri-pinterest-fill"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a href="#contact" class="social__icon"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a href="#contact" class="social__icon"
+                ><i class="ri-facebook-circle-fill"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <!-- copyright -->
+        <div class="container">
+          <p class="footer__copyright">
+            &copy; Boost 2024. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
